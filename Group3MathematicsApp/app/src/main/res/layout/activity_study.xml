@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        tools:context="sfu.ca.group3mathematicsapp.StudyActivity">
+
+
+        <TextView
+            android:id="@+id/genHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gCategories"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:paddingBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/calcHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calculus"
+            android:textColor="@color/white"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@+id/link1Calc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jmtCalc"
+            android:textColor="@color/orange" />
+
+        <TextView
+            android:id="@+id/link2Calc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trevCalc"
+            android:textColorLink="@color/orange" />
+
+        <TextView
+            android:id="@+id/link3Calc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/khanCalc"
+            android:textColorLink="@color/orange"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/macmHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/discreteMath"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/link1Macm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jmtMacm"
+            android:textColorLink="@color/orange" />
+
+        <TextView
+            android:id="@+id/link2Macm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trevMacm"
+            android:textColorLink="@color/orange"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/trigHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trig"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/link1Trig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/khanTrig"
+            android:textColorLink="@color/orange" />
+
+        <TextView
+            android:id="@+id/link2Trig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jmtTrig"
+            android:textColorLink="@color/orange"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/LalgHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/linAlg"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/link1Lalg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trevLalg"
+            android:textColorLink="@color/orange" />
+
+        <TextView
+            android:id="@+id/link2Lalg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jmtLalg"
+            android:textColorLink="@color/orange"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/algHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/algebra"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/link1Alg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jmtAlg"
+            android:textColorLink="@color/orange" />
+
+        <TextView
+            android:id="@+id/link2Alg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/khanAlg"
+            android:textColorLink="@color/orange"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/specHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sCategories"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:paddingBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/convertHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/converting"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/linkConvert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/convertingLink"
+            android:textColorLink="@color/orange"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/logicHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logic"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/introProp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/introProp"
+            android:textColor="@color/orange" />
+
+        <TextView
+            android:id="@+id/logicLaws"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logicLaws"
+            android:textColor="@color/orange" />
+
+        <TextView
+            android:id="@+id/truthtables"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/truthTables"
+            android:textColor="@color/orange" />
+
+        <TextView
+            android:id="@+id/tableProofs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tableProofs"
+            android:textColor="@color/orange" />
+
+        <TextView
+            android:id="@+id/conditionals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/conditionals"
+            android:textColor="@color/orange"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/probHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prob"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/linkProb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/linkProb"
+            android:textColor="@color/orange"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/limitsHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/limits"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/linkLimits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jmtLimits"
+            android:textColor="@color/orange"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/dervsHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/derivatives"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/linkDerivatives"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jmtDervs"
+            android:textColor="@color/orange"
+            android:paddingBottom="10dp"/>
+
+    </LinearLayout>
+</ScrollView>

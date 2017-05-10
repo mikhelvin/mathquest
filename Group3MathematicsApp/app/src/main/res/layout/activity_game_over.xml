@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="sfu.ca.group3mathematicsapp.GameOverActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/GameOverInfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorAccent"
+        android:text="@string/GameOverInfo" />
+
+    <TextView
+        android:id="@+id/GameOverTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/GameOverInfoTextView"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/GameOverLarge"
+        android:textSize="60dp" />
+
+    <Button
+        android:id="@+id/retryBtn"
+        android:layout_width="113dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/GameOverInfoTextView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="75dp"
+        android:textSize="24dp"
+        android:text="@string/retryNav"
+        style="@style/buttonBasic" />
+
+
+</RelativeLayout>

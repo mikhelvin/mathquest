@@ -1,0 +1,615 @@
+<resources>
+    <string name="app_name">Math Quest</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_study">StudyActivity</string>
+    <string name="title_activity_score">ScoreGameActivity</string>
+
+    <!-- QUESTION STRINGS -->
+    <string name="title0">Question 1 - At the castle moat:</string>
+    <string name="context0">You finally reach the castle and see that it is surrounded by an alligator infested moat.\nYou notice a number pad, with a hint saying \"The password is 2A.\", signed by Lord Hexadecimal.</string>
+    <string name="contextF0">You finally reach the castle and see that it is surrounded by an alligator infested moat.\nYou notice a number pad, with a hint saying \"The password is 2A.\", signed by Lord Hexadecimal.</string>
+    <string name="content0">2A converted from hexadecimal to decimal is:</string>
+    <string name="answer0">42</string>
+
+    <string name="title1">Question 2 - The Jester at the gate:</string>
+    <string name="context1">The passcode was correct! At the end of the moat, Calcebra\'s jester blocks your way. He draws a card at random from a deck of cards and asks you to guess its suit.</string>
+    <string name="contextF1">Well, you got the passcode wrong so you resorted to swimming past the alligators. That was not a good idea.\n\nAs you make it to the other side of the moat, Calcebra\'s jester blocks your way. He draws a card at random from a deck of cards and asks you to guess its suit.</string>
+    <string name="content1">Assuming a deck of cards has 52 cards, and 13 of each suit, what is the percentage probability that the card\'s suit is spades? (ex. 60 percent would be 0.60)</string>
+    <string name="answer1">0.25</string>
+
+    <string name="title2">Question 3 - Enter the courtyard:</string>
+    <string name="context2">The jester is amazed at your mathematical prowess and lets you through. You walk into a courtyard filled with numerous trees. Suddenly, the trees come alive and ensnare you with their branches. A magical vine hands you a scroll with another problem to solve, seemingly unwilling to let you go until you provide it with an answer.
+</string>
+    <string name="contextF2">The jester looks disappointed, then attacks you. Despite being hurt a bit from the fight, you manage to subdue him and progress into a courtyard filled with numerous trees. Suddenly, the trees come alive and ensnare you with their branches. A magical vine hands you a scroll with another problem to solve, seemingly unwilling to let you go until you provide it with an answer. The druid of the forest is choosing three of the ten trees to animate into treants.
+</string>
+    <string name="content2">How many ways can you pick three members of a group of ten if order does not matter?
+</string>
+    <string name="answer2">120</string>
+
+    <string name="title3">Question 4 - The Grand Hall:</string>
+    <string name="context3">The druid likes your answer and lets you go. You find your way to the Grand Hall. The hall is dark, but there is a flickering circuit beside you. The button does not work, but there is a dial and a formula to calculate the voltage that the circuit should receive.</string>
+    <string name="contextF3">The druid did not like your answer, and you hurt yourself when you use your knife to cut yourself free. At the end of the courtyard, you find your way to the Grand Hall. The hall is dark, but there is a flickering circuit beside you. The button does not work, but there is a dial and a formula to calculate the voltage that the circuit should receive. Lightly glowing, the formula reads:</string>
+    <string name="content3">The circuit in front of you takes a maximum voltage \"the limit as x approaches two, of 8 – 3x + 12x^2\". What voltage should the circuit receive?</string>
+    <string name="answer3">50</string>
+
+    <string name="title4">Question 5 - The Dungeon Entrance:</string>
+    <string name="context4">You hear a resonating hum, and a solitary light turns on above one of the doors indicating that it is the one you need. However, it seems to be locked and the only way to open it is to solve the riddle you find engraved around the door frame.</string>
+    <string name="contextF4">You fumble with the circuit to no avail, and resort to finding the door manually. You stumble and fall a few times but eventually find the correct one labeled "DUNGEON ENTRANCE". However, it seems to be locked and the only way to open it is to solve the riddle you find engraved around the door frame.</string>
+    <string name="content4">\"I am a graph with four vertices and six edges. Can I exist?\"\n\nAnswer 1 for yes or 0 for no.</string>
+    <string name="answer4">1</string>
+
+    <string name="title5">Question 6 - Freeing the Princess:</string>
+    <string name="context5">The door hears your answer, and seemingly alive, swings upon with a ceremonious thud. You enter the dungeon and find Princess Trig held by Calcebra. You immediately notice that something is not right about the scene in front of you.</string>
+    <string name="contextF5">The door does not open. You smash at it with your fists and, seemingly hurt, the door swings upon with a ceremonious thud. However, you receive a few splinters in your hand. You progress through the dungeon and find Princess Trig held by Calcebra. You immediately notice that something is not right about the scene in front of you. Everything seems to be upside down.</string>
+    <string name="content5">Let the image in front of you be represented by a 2-D vector in the form of (x, y). What do you multiply the y-coordinate by in order to reflect the image about the x-axis?</string>
+    <string name="answer5">-1</string>
+
+    <string name="title6">Question 7 – Past The Illusion:</string>
+    <string name="context6">You flip the image in front of you and discover that it is an illusion. You feel the floor under you give way, and you are able to roll as you fall to the level below you. There is a golden shield in front of you, but it\'s locked behind a combination.</string>
+    <string name="contextF6">While you struggle to flip the image in front of you, the floor under you gives way and you fall. You suffer a few bruises. You see a golden shield in front of you, but it\'s locked behind a combination.</string>
+    <string name="content6">How many possible permutations exist for the letters in the word \“SHIELD\”?</string>
+    <string name="answer6">720</string>
+
+    <string name="title7">Question 8 – Another Useful Tool:</string>
+    <string name="context7">Realizing that 720 combinations is too much, you search around the room for another way to retrieve the shield. You find a lever, pull it, and retrieve the shield from the wall. You discover a sword behind it with the same locking mechanism.</string>
+    <string name="contextF7">You figure that there aren\'t too many combinations to enter, and you start guessing. By the time you are finished, your fingers become sore. You unlock the shield and discover a sword behind it with the same locking mechanism.</string>
+    <string name="content7">How many possible permutations exist for the letters in the word \“SWORD\”?</string>
+    <string name="answer7">120</string>
+
+    <string name="title8">Question 9 – Three Paths</string>
+    <string name="context8">You unlock the sword with ease and press on. You discover three paths in front of you, but there\'s a map. The map is given in the format of a binary search tree, with the way out given in the right child.</string>
+    <string name="contextF8">Your fingers become raw as you enter all the possible permutations manually, and eventually guess the answer and take the sword. You discover three paths in front of you, but there\'s a map. The map is given in the format of a binary search tree, with the way out given in the right child.</string>
+    <string name="content8">The binary search tree in front of you has three nodes consisting of 1, 4, and 7. The root is 4. The right child of the root has what value?</string>
+    <string name="answer8">7</string>
+
+    <string name="title9">Question 10 - Three Paths, Part II</string>
+    <string name="context9">You take the path labeled 7 and gleefully press on. You find another three paths, and they diverge in the same fashion. However, the root of the tree is indicated as the right way out.</string>
+    <string name="contextF9">You are not convinced that your answer is particularly correct after running into a swarm of stinging bees. After receiving a few painful stings, you double back to take the path labeled with 7 instead. You find another three paths, and they diverge in the same fashion. However, the root of the tree is indicated as the right way out.</string>
+    <string name="content9">The binary search tree in front of you has three nodes consisting of 78, 32, and 45. The left child has a value of 32. Which number must its parent be?</string>
+    <string name="answer9">45</string>
+
+    <string name="title10">Question 11 - The Final Three Paths</string>
+    <string name="context10">You take the correct path, so it would seem. It leads to what looks like the exit, until you walk into an illusory wall. With a hurt head, you double back and head onto another path. The final three doors await. The answer is given to you with a binary search tree\'s root.</string>
+    <string name="contextF10">You are not sure which path to follow and take the one directly in front of you. It leads to what looks like the exit, until you walk into an illusory wall. With a hurt head, you double back and head onto another path. The final three doors await. The answer is given to you with a binary search tree\'s root.</string>
+    <string name="content10">The binary search tree in front of you has three nodes consisting of 2, 66, and 5. What number must the root be?</string>
+    <string name="answer10">5</string>
+
+    <string name="title11">Question 12 - Tower Ascension I:</string>
+    <string name="context11">Upon entering door 5, you reach the base of the stairs to Calcebra\'s Tower. Each of the stairs are guarded by the Algebrains, floating inquisitive creatures that prevent you from passing unless you answer their questions. The first Algebrain asks you:</string>
+    <string name="contextF11">You are unsure that your answer is correct, and you open all three doors. One of the doors electrocutes you however. After opening door 5, you see the base of the stairs to Calcebra\'s Tower. Each of the stairs are guarded by the Algebrains, floating inquisitive creatures that prevent you from passing unless you answer their questions. The first Algebrain asks you:</string>
+    <string name="content11">\"What is the dot product of the vectors (7, 6) and (5, 1)?\"</string>
+    <string name="answer11">41</string>
+
+    <string name="title12">Question 13 - Tower Ascension II:</string>
+    <string name="context12">The first Algebrain likes your response and allows you to pass. You ascend the stairs, and the next Algebrain asks you:</string>
+    <string name="contextF12">The first Algebrain shakes, and explodes into a puff of blinding smoke. You suffer a small headache. You ascend the stairs, and the next Algebrain asks you:</string>
+    <string name="content12">What is the dot product of the vectors (3, 3) and (0, 8)?</string>
+    <string name="answer12">24</string>
+
+    <string name="title13">Question 14 - Tower Ascension III:</string>
+    <string name="context13">Correct! The Algebrain lets you pass. The next floor has a new creature called a Trigonometron. It seems to work in the same fashion as the Algebrains. It asks:</string>
+    <string name="contextF13">Incorrect! The Algebrain explodes into a puff of ground pepper, causing you to sneeze uncontrollably. The next creature, a Trigonometron, seems to work in the same way as the Algebrains. It asks:</string>
+    <string name="content13">Evaluate sin(pi/2).</string>
+    <string name="answer13">1</string>
+
+    <string name="title14">Question 15 - Tower Ascension IV:</string>
+    <string name="context14">Amused it would seem, the Trigonometron allows you to pass. The next one asks:</string>
+    <string name="contextF14">Disappointed, the Trigonometron attacks you with an electric stun rod. You collapse convulsing and pass out, and upon waking it is gone. You proceed to the next one, and it asks:</string>
+    <string name="content14">Evaluate sin(2 * pi)</string>
+    <string name="answer14">0</string>
+
+    <string name="title15">Question 16 - Tower Ascension V:</string>
+    <string name="context15">You begin to feel the fatigue of climbing the tower, but press on. The next Trigonometron asks:</string>
+    <string name="contextF15">You begin to feel the fatigue of climbing the tower. Getting the answer wrong, you are not surprised when the Trigonmetron shocks you with a stun rod. After passing out and waking up, you proceed to the next Trigonmetron\'s question:</string>
+    <string name="content15">Evaluate cos(pi / 3)</string>
+    <string name="answer15">0.5</string>
+
+    <string name="title16">Question 17 - Tower Ascension VI:</string>
+    <string name="context16">Happy with your answer, the Trigonometron allows you to proceed to the next floor and the next question.</string>
+    <string name="contextF16">Unhappy with your answer, the Trigonometron shocks you with its stun rod before leaving, allowing you to proceed to the next floor and the next question.</string>
+    <string name="content16">Given the following equation, what value must be in the blank in order for the equation to represent the surface area of a sphere?\nA = __ * pi * r^2</string>
+    <string name="answer16">4</string>
+
+    <string name="title17">Question 18 - Tower Ascension VII:</string>
+    <string name="context17">The Trigonometron does not leave, but instead opens a door beside it labeled \"To Calcebra\'s Chambers\". You proceed through the door, but there is a gate with a riddle on it. It reads:</string>
+    <string name="contextF17">The Trigonometron does not leave, but instead points you to a door beside it labeled \"To Calcebra\'s Chambers\". You reach to open the door, but the Trigonometron shocks you with a stun rod and you pass out. Upon waking, you find yourself in the room with a gate and a riddle on it. It reads:</string>
+    <string name="content17">For a function to be considering strictly increasing, what value must the derivative (f\'(x)) be greater than?</string>
+    <string name="answer17">0</string>
+
+    <string name="title18">Question 19 - To Calcebra\'s Chambers I:</string>
+    <string name="context18">The gate opens and you proceed. Another gate appears around the corner, and you must unlock it with another answer to its riddle.</string>
+    <string name="contextF18">The gate does not open, and you swing at it with your sword. Your arm gets sore, but it opens. Another gate appears around the corner, and you must unlock it with another answer to its riddle.</string>
+    <string name="content18">An even number can be written in the form of __ * n. What value goes in the blank?</string>
+    <string name="answer18">2</string>
+
+    <string name="title19">Question 20 - To Calcebra\'s Chambers II:</string>
+    <string name="context19">The gate opens and you proceed. The next riddle is:</string>
+    <string name="contextF19">The gate does not open, and you bash it open with your shield. Your shoulder becomes bruised, but you are able to open the gate. The next riddle is:</string>
+    <string name="content19">An odd number can be written in the form of 2n + __. What value goes in the blank?</string>
+    <string name="answer19">1</string>
+
+    <string name="title20">Question 21 - Count Modulo\'s Barracks I</string>
+    <string name="context20">You find yourself past the gates, and you find that you have stepped into a room of sleeping soldiers under Count Modulo, Calcebra\'s master of war. You must disarm the alarms before proceeding. The alarms are protected by the following:</string>
+    <string name="contextF20">You strain yourself forcing opening the gates, and you find that you have stepped into a room of sleeping soldiers under Count Modulo, Calcebra\'s master of war. You must disarm the alarms before proceeding. The alarms are protected by the following:</string>
+    <string name="content20">Evaluate 17 % 3.</string>
+    <string name="answer20">2</string>
+
+    <string name="title21">Question 22 - Count Modulo\'s Barracks II</string>
+    <string name="context21">Well done. You discover that there is another element to the alarm.</string>
+    <string name="contextF21">The alarm seems to be ready to trigger, but you discover another element of the alarm. Perhaps you have another chance.</string>
+    <string name="content21">Evaluate 123 % 1.</string>
+    <string name="answer21">0</string>
+
+    <string name="title22">Question 23 - Count Modulo\'s Barracks III</string>
+    <string name="context22">Correct again! A confirmation on the alarm appears, followed by a final verification problem:</string>
+    <string name="contextF22">Things do not look good. A confirmation on the alarm appears, followed by a final verification problem:</string>
+    <string name="content22">Evaluate 11 % 7.</string>
+    <string name="answer22">4</string>
+
+    <string name="title23">Question 24 - Inner Sanctum I:</string>
+    <string name="context23">You have prevented the alarm from going off and you proceed into Calcebra\'s inner sanctum. You hear a faint voice that resembles Princess Trig\'s. It seems that the voice is trying to tell you the password for the next door.</string>
+    <string name="contextF23">The alarm goes off. The soldiers awaken and rush you down, but you manage to endure their assault as you run into the next room and shut the door behind you. You hear a faint voice that resembles Princess Trig\'s. It seems that the voice is trying to tell you the password for the next door.</string>
+    <string name="content23">Find the number that belongs in the following sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, __ , …</string>
+    <string name="answer23">34</string>
+
+    <string name="title24">Question 25 - Inner Sanctum II:</string>
+    <string name="context24">The door opens, and you listen for the voice again for the next door. The voice says:</string>
+    <string name="contextF24">The door does not open, but the door swings open as the soldiers behind you pour through. You take a bit of abuse as you rush through and close the door behind you again.</string>
+    <string name="content24">What is the least common multiple of 4, 5, 6, and 7?</string>
+    <string name="answer24">420</string>
+
+    <string name="title25">Question 26 - Inner Sanctum III:</string>
+    <string name="context25">The door opens, and the voice speaks again:</string>
+    <string name="contextF25">The door does not open and the onslaught of soldiers hurts you as you force your way through the door. The voice speaks again:</string>
+    <string name="content25">What is the least common multiple of 3, 5, and 11?</string>
+    <string name="answer25">165</string>
+
+    <string name="title26">Question 27 - Calcebra\'s Final Tests:</string>
+    <string name="context26">You enter through the door and are met by Calcebra and Princess Trig. She does not look particularly flustered, yet you rush to attack Calcebra. He parries your attack with a mathematical protection incantation. To push through, you must solve it:</string>
+    <string name="contextF26">You enter through the door despite the onslaught of soldiers. You are hurt a bit. Past the door you are finally met by Calcebra and Princess Trig. She does not look particularly flustered, yet you rush to attack Calcebra. He parries your attack with a mathematical protection incantation. To push through, you must solve it:</string>
+    <string name="content26">What is the 4-bit binary representation of the decimal number 8?</string>
+    <string name="answer26">1000</string>
+
+    <string name="title27">Question 28 - Calcebra\'s Final Tests:</string>
+    <string name="context27">You break his spell, but he casts another one right after it:</string>
+    <string name="contextF27">You opt to swing at his magical barrier with your sword, but you hurt yourself in the process. He refreshes his spell with the following question:</string>
+    <string name="content27">What is the 4-bit binary representation of the decimal number 13?</string>
+    <string name="answer27">1101</string>
+
+    <string name="title28">Question 29 - Calcebra\'s Final Tests:</string>
+    <string name="context28">Impressed with your mathematical knowledge, Calcebra conjures up a final spell for you to break:</string>
+    <string name="contextF28">You smash the barrier open with shield, slightly damaging yourself in the process. Calcebra looks nervous as he conjurers up a final spell:</string>
+    <string name="content28">Binary numbers are part of a base-x numeral system. What is the value of x?</string>
+    <string name="answer28">2</string>
+
+    <string name="title29">Question 30 - Calcebra\'s Final Tests:</string>
+    <string name="context29">As the barrier disappears, and the last of Calcebra\'s energy is spent, the Princess yells out that you can vanquish him by answering the following question:</string>
+    <string name="contextF29">You headbutt the barrier causing some slight discomfort and some lost brain cells. The Princess yells out that you can vanquish him by answering the following question:</string>
+    <string name="content29">The decimal numbers we use every day are part of a base-z numeral system. What is the value of z?</string>
+    <string name="answer29">10</string>
+
+
+    <!-- ADDITIONAL QUESTIONS -->
+    <string name="content30">A homogeneous equation is defined as a system that can be written as Ax = ?</string>
+    <string name="answer30">0</string>
+
+    <string name="content31">What is the maximum rank of a matrix with 2 rows and 4 columns?</string>
+    <string name="answer31">2</string>
+
+    <string name="content32">What is the maximum rank of a matrix with 5 rows and 3 columns?</string>
+    <string name="answer32">3</string>
+
+    <string name="content33">Two vectors are orthogonal if their dot product is equal to what number?</string>
+    <string name="answer33">0</string>
+
+    <string name="content34">What is the nullity of a matrix with 7 pivot variables and 4 free variables?</string>
+    <string name="answer34">4</string>
+
+    <string name="content35">f(x) = 23x^2 + 7x + 8. What is f(3)?</string>
+    <string name="answer35">236</string>
+
+    <string name="content36">f(x) = 5x^2 + x + 13. What is f(4)?</string>
+    <string name="answer36">97</string>
+
+    <string name="content37">f(x) = 8x^2 + 11x + 7. What is f(2)?</string>
+    <string name="answer37">61</string>
+
+    <string name="content38">g(x) = 9092x^2 + 1732x + 5. What is g(0)?</string>
+    <string name="answer38">5</string>
+
+    <string name="content39">g(x) = x^2 + 3x + 2. What is g(3)?</string>
+    <string name="answer39">20</string>
+
+    <string name="content40">What is the nullity of a matrix with 9 pivot variables and 2 free variables?</string>
+    <string name="answer40">2</string>
+
+    <string name="content41">The determinant of a matrix A is 3. The determinant of a matrix B is 4. The determinant of a matrix C where C = AB is what?</string>
+    <string name="answer41">12</string>
+
+    <string name="content42">The determinant of a matrix A is 8. The determinant of a matrix B is 9. The determinant of a matrix C where C = AB is what?</string>
+    <string name="answer42">72</string>
+
+    <string name="content43">The determinant of a matrix A is 20. The determinant of a matrix B is 2. The determinant of a matrix C where C = AB is what?</string>
+    <string name="answer43">40</string>
+
+    <string name="content44">The determinant of a matrix A is 4. The determinant of a matrix B is 7. The determinant of a matrix C where C = AB is what?</string>
+    <string name="answer44">28</string>
+
+    <string name="content45">g(x) = 7x^2 + 3x + 6. What is g(1)?</string>
+    <string name="answer45">16</string>
+
+    <string name="content46">Swapping rows of a matrix multiplies its determinant by a constant factor of what?</string>
+    <string name="answer46">-1</string>
+
+    <string name="content47">A matrix is invertible if and only if its determinant is not equal to what?</string>
+    <string name="answer47">0</string>
+
+    <string name="content48">What is the dot product of the vectors (2, 3) and (6, 2)?</string>
+    <string name="answer48">18</string>
+
+    <string name="content49">What is the dot product of the vectors (0, 0) and (23, 66)?</string>
+    <string name="answer49">0</string>
+
+    <string name="content50">What is the dot product of the vectors (1, 7) and (9, 4)?  </string>
+    <string name="answer50">37</string>
+
+    <string name="content51">What is the dot product of the vectors (8, 8) and (8, 8)?</string>
+    <string name="answer51">128</string>
+
+    <string name="content52">Assuming a deck of cards has 52 cards, and 13 of each suit, what is the percentage probability that the card is either clubs or hearts?</string>
+    <string name="answer52">0.5</string>
+
+    <string name="content53">Assuming a deck of cards has 52 cards, and 13 of each suit, what is the percentage probability that the card\'s suit is not diamonds?</string>
+    <string name="answer53">0.75</string>
+
+    <string name="content54">What is the least common multiple of 5, 7, 11, and 13?</string>
+    <string name="answer54">5005</string>
+
+    <string name="content55">What is the least common multiple of 23 and 42?</string>
+    <string name="answer55">966</string>
+
+    <string name="content56">What is the least common multiple of 25 and 31?</string>
+    <string name="answer56">775</string>
+
+    <string name="content57">Evaluate 16 % 15.</string>
+    <string name="answer57">1</string>
+
+    <string name="content58">Evaluate 27 % 11.</string>
+    <string name="answer58">5</string>
+
+    <string name="content59">Evaluate 56 % 3.</string>
+    <string name="answer59">2</string>
+
+    <string name="content60">How many ways can you pick 4 members of a group of 14 if order does not matter?</string>
+    <string name="answer60">1001</string>
+
+    <string name="content61">How many ways can you pick 7 members of a group of 12 if order does not matter?</string>
+    <string name="answer61">792</string>
+
+    <string name="content62">How many ways can you pick 5 members of a group of 7 if order does not matter?</string>
+    <string name="answer62">21</string>
+
+    <string name="content63">How many ways can you pick 2 members of a group of 11 if order does not matter?</string>
+    <string name="answer63">55</string>
+
+    <string name="content64">How many ways can you pick 3 members of a group of 5 if order does not matter?</string>
+    <string name="answer64">10</string>
+
+    <string name="content65">How many ways can you pick 9 members of a group of 10 if order does not matter?</string>
+    <string name="answer65">10</string>
+
+    <string name="content66">How many possible permutations exist for the letters in the word \“MATH\”?</string>
+    <string name="answer66">24</string>
+
+    <string name="content67">How many possible permutations exist for the letters in the word \“ALGEBRA\”?</string>
+    <string name="answer67">5040</string>
+
+    <string name="content68">How many possible permutations exist for the letters in the word \“CALCULUS\”?</string>
+    <string name="answer68">40320</string>
+
+    <string name="content69">How many possible permutations exist for the letters in the word \“DECIMAL\”?</string>
+    <string name="answer69">5040</string>
+
+    <string name="content70">A maximal planar graph has 3 vertices. How many edges must it have?</string>
+    <string name="answer70">3</string>
+
+    <string name="content71">A maximal planar graph has 12 vertices. How many edges must it have?</string>
+    <string name="answer71">30</string>
+
+    <string name="content72">A maximal planar graph has 17 vertices. How many edges must it have?</string>
+    <string name="answer72">45</string>
+
+    <string name="content73">A maximal planar graph has 6 vertices. How many edges must it have?</string>
+    <string name="answer73">12</string>
+
+    <string name="content74">A maximal planar graph has 5 vertices. How many edges must it have?</string>
+    <string name="answer74">9</string>
+
+    <string name="content75">A maximal planar graph has 11 vertices. How many edges must it have?</string>
+    <string name="answer75">27</string>
+
+    <string name="content76">What is the dot product of the vectors (2, 4) and (7, 3)?</string>
+    <string name="answer76">26</string>
+
+    <string name="content77">What is the dot product of the vectors (9, 2) and (4, 5)?</string>
+    <string name="answer77">46</string>
+
+    <string name="content78">What is the dot product of the vectors (6, 1) and (1, 2)?</string>
+    <string name="answer78">8</string>
+
+    <string name="content79">What is the dot product of the vectors (4, 4) and (8, 0)?</string>
+    <string name="answer79">32</string>
+
+    <string name="content80">What is the dot product of the vectors (1, 7) and (8, 2)?</string>
+    <string name="answer80">22</string>
+
+    <string name="content81">A right-trangle has one __ degree angle. What number goes in the blank?</string>
+    <string name="answer81">90</string>
+
+    <string name="content82">All angles in an equilateral triangle are __ degrees. What number goes in the blank?</string>
+    <string name="answer82">60</string>
+
+    <string name="content83">The angles in a triangle all add up to __ degrees. What number goes in the blank?</string>
+    <string name="answer83">180</string>
+
+    <string name="content84">p(x) = 2x^4 + 3x^3 + 9x + 3. What degree polynomial is p(x)?</string>
+    <string name="answer84">4</string>
+
+    <string name="content85">p(x) = 9x^3 + 0. What degree polynomial is p(x)?</string>
+    <string name="answer85">3</string>
+
+    <string name="content86">p(x) = 3x^8 + 7x^4 + 9x^3 + 65. What degree polynomial is p(x)?</string>
+    <string name="answer86">8</string>
+
+    <string name="content87">p(x) = 45. What degree polynomial is p(x)?</string>
+    <string name="answer87">0</string>
+
+    <string name="content88">p(x) = 87x^6 + 23x^5 + 9x^2 + 410. What degree polynomial is p(x)?</string>
+    <string name="answer88">6</string>
+
+    <string name="content89">For a function to be considering strictly decreasing, what value must the derivative (f\'(x)) be less than?</string>
+    <string name="answer89">0</string>
+
+    <string name="content90">0x005A converted from hexadecimal to decimal is:</string>
+    <string name="answer90">90</string>
+
+    <string name="content91">0x000000FF converted from hexadecimal to decimal is:</string>
+    <string name="answer91">255</string>
+
+    <string name="content92">0x000000A3 converted from hexadecimal to decimal is:</string>
+    <string name="answer92">163</string>
+
+    <string name="content93">0x00000062 converted from hexadecimal to decimal is:</string>
+    <string name="answer93">98</string>
+
+    <string name="content94">0x000000C9 converted from hexadecimal to decimal is:</string>
+    <string name="answer94">201</string>
+
+    <string name="content95">0x0000006B converted from hexadecimal to decimal is:</string>
+    <string name="answer95">107</string>
+
+    <string name="content96">0x0231 converted from hexadecimal to decimal is:</string>
+    <string name="answer96">561</string>
+
+    <string name="content97">0x9F3F converted from hexadecimal to decimal is:</string>
+    <string name="answer97">7999</string>
+
+    <string name="content98">0x43AC converted from hexadecimal to decimal is:</string>
+    <string name="answer98">17324</string>
+
+    <string name="content99">0x0E5C converted from hexadecimal to decimal is:</string>
+    <string name="answer99">3676</string>
+
+    <!-- STORY STRINGS : ON SUCCESS -->
+    <string name="storyS0">\t\t\tPrincess Trig has been captured and imprisoned by the evil Math Wizard Calcebra and needs your help. Calcebra is willing to release the princess once someone bests him in a competition of mathematics.\n\n\t\t\tYou are a brave and adventurous mathematician and have been called upon by King Pythagoras to get the princess back. You have conquered every high school level math adventure known to man but this one will be a true test of your mathematical fortitude.\n\n\t\t\tAs you travel to the castle you ponder the difficulty of the upcoming task and are glad that you remembered to bring your study journal in case you are ever stumped by the wicked math problems.
+</string>
+    <string name="storyS1"></string>
+    <string name="storyS2"></string>
+
+    <!-- STORY STRINGS : ON FAIL -->
+    <string name="storyF0">\t\t\tPrincess Trig has been captured and imprisoned by the evil Math Wizard Calcebra and needs your help. Calcebra is willing to release the princess once someone bests him in a competition of mathematics.\n\n\t\t\tYou are a brave and adventurous mathematician and have been called upon by King Pythagoras to get the princess back. You have conquered every high school level math adventure known to man but this one will be a true test of your mathematical fortitude.\n\n\t\t\tAs you travel to the castle you ponder the difficulty of the upcoming task and are glad that you remembered to bring your study journal in case you are ever stumped by the wicked math problems.
+</string>
+    <string name="storyF1"></string>
+    <string name="storyF2"></string>
+
+    <!-- MISC STORY -->
+    <string name="finalStoryString">\t\t\tUpon defeating Calcebra, he collapses in awe of your mathematical abilities and frees Princess Trig. He beckons you to come closer and he reveals the following:\n\n\t\t\t\"I only took the princess to encourage you to learn mathematics... It makes me proud that you were able to make it this far. Please, take Princess Trig with you and teach her your mathematical knowledge. She will need it for the years to come.\"\n\n\t\t\tCalcebra then disappears into a plume of smoke, and you are left with Princess Trig. She blushes slightly when your eyes meet.</string>
+
+    <!-- BUTTON TEXT-->
+    <string name="StartNav">START</string>
+    <string name="StudyNav">STUDY</string>
+    <string name="SettingsNav">SETTINGS</string>
+    <string name="closeSettingsNav">CLOSE SETTINGS</string>
+    <string name="HelpNav">HELP</string>
+    <string name="InstructionsNav">INSTRUCTIONS</string>
+    <string name="retryNav">RETRY</string>
+    <string name="playAgainNav">PLAY AGAIN</string>
+    <string name="SubmitString">SUBMIT</string>
+    <string name="OkString">OK</string>
+    <string name="resumeNav">RESUME STORY MODE</string>
+    <string name="scoreResumeNav">RESUME SCORE MODE</string>
+
+    <!-- SPLASH SCREEN -->
+    <string name="Loading">.</string>
+    <string name="WelcomeSplash">Welcome to Math Quest!</string>
+
+    <!-- GAME UI-->
+    <string name="livesText">LIVES:</string>
+    <string name="answerEditTextHint">Enter your answer here!</string>
+    <string name="console">- - - - CONSOLE - - - -</string>
+    <string name="GameOverInfo">You\'re out of lives! Hit the retry button if you\'d like to try again.</string>
+    <string name="GameOverLarge">GAME OVER</string>
+    <string name="YouWinLarge">YOU WIN</string>
+    <string name="YouWinInfo">Congratulations! You have successfully completed Math Quest. The world of first-year math awaits you!</string>
+    <string name="cheatActivated">YOU\'VE ACTIVATED A CHEAT CODE!</string>
+    <string name="gameCheated">You\'ve skipped to the end of the game!</string>
+    <string name="godCheat">GOD CHEAT: We have given you 99 lives.</string>
+    <string name="leetCheat">1337 CHEAT: The answer to this question is</string>
+
+    <!-- SCORE GAME UI -->
+    <string name="scoreText">SCORE: %1$d/%2$d</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_game_over">GameOverActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+    <!-- UNCATEGORIZED -->
+
+
+    <!-- STUDY ACTIVITY-->
+    <string name="gCategories">General Categories:</string>
+    <string name="calculus">Calculus:</string>
+    <string name="jmtCalc"><a href="http://patrickjmt.com/#calculus">PatrickJMT</a></string>
+    <string name="trevCalc"><a href="https://trevtutor.com/calculus/calculus1/">TrevTutor</a></string>
+    <string name="khanCalc"><a href="https://www.khanacademy.org/math/calculus-home">Khan Academy</a></string>
+    <string name="discreteMath">Discrete Math:</string>
+    <string name="jmtMacm"><a href="http://patrickjmt.com/#discrete-math">PatrickJMT</a></string>
+    <string name="trevMacm"><a href="https://trevtutor.com/discretemath/discretemath1/">TrevTutor</a></string>
+    <string name="trig">Trigonometry:</string>
+    <string name="khanTrig"><a href="https://www.khanacademy.org/math/trigonometry">Khan Academy</a></string>
+    <string name="jmtTrig"><a href="http://patrickjmt.com/#trigonometry">PatrickJMT</a></string>
+    <string name="linAlg">Linear Algebra:</string>
+    <string name="trevLalg"><a href="https://trevtutor.com/algebra/linear-algebra/">TrevTutor</a></string>
+    <string name="jmtLalg"><a href="http://patrickjmt.com/#linear-algebra">PatrickJMT</a></string>
+    <string name="algebra">Algebra:</string>
+    <string name="jmtAlg"><a href="http://patrickjmt.com/#algebra">PatrickJMT</a></string>
+    <string name="khanAlg"><a href="https://www.khanacademy.org/math/algebra-home">Khan Academy</a></string>
+    <string name="sCategories">Specific Categories:</string>
+    <string name="converting">Converting:</string>
+    <string name="convertingLink"><a href="https://www.youtube.com/watch?v=aW3qCcH6Dao">Converting between binary, hex, and decimal</a></string>
+    <string name="logic">Logic:</string>
+    <string name="introProp"><a href="http://youtu.be/paRt4R71d8s">Introduction to Propositional Logic</a></string>
+    <string name="logicLaws"><a href="http://y2u.be/_xjz99xHH8Q">Logic Laws</a></string>
+    <string name="truthTables"><a href="http://y2u.be/oKQrt6myHLQ">Truth Tables</a></string>
+    <string name="tableProofs"><a href="http://y2u.be/UB9hPtB9dKA">Truth Table Proofs</a></string>
+    <string name="conditionals"><a href="http://y2u.be/p9VVi90n_48">Conditionals</a></string>
+    <string name="prob">Probability:</string>
+    <string name="linkProb"><a href="https://www.youtube.com/watch?v=YWt_u5l_jHs">Introduction to Probability</a></string>
+    <string name="limits">Limits:</string>
+    <string name="jmtLimits"><a href="https://www.youtube.com/playlist?list=PLDAA5D23D46B21257">PatrickJMT limits playlist</a></string>
+    <string name="derivatives">Derivatives:</string>
+    <string name="jmtDervs"><a href="https://www.youtube.com/playlist?list=PLDE077A2EC488104D">PatrickJMT derivatives playlist</a></string>
+    <string name="welcomeMQ">Welcome to Math Quest!</string>
+    <string name="musicBtn">TOGGLE MUSIC</string>
+    <string name="musicBtnOn">(Currently ON)</string>
+    <string name="musicBtnOff">(Currently OFF)</string>
+    <string name="incorrectAnswer">INCORRECT! Your answer was wrong for question</string>
+    <string name="provideCorrect">The correct answer was:</string>
+    <string name="correctAnswer">Correct! You got the right answer for question</string>
+
+    <!-- INSTRUCTIONS ACTIVITY-->
+    <string name="welcome">Welcome to Math Quest!</string>
+    <string name="instructions">Math Quest is a text based, story-driven game that follows a hero\'s quest to rescue a princess from an evil math wizard\'s castle. The game starts at the entrance to the wizards\'s castle with each following level being unlocked by completing a math problem. </string>
+    <string name="instructions2">To progress through the game, simply click continue once you have read through the story and you will be provided with a problem to solve. If you provide a correct solution, your hero will progress to the next level, otherwise, you will lose a life.</string>
+    <string name="importantInst">Note: please answer all questions using only numbers</string>
+    <string name="exHeading">Example Question:</string>
+    <string name="exQ">Convert 10100011 from binary to decimal</string>
+    <string name="exInput">Your input:</string>
+    <string name="exAnsw">163</string>
+    <string name="questionSkipped">Question skipped!</string>
+    <string name="musicOn">MUSIC ON</string>
+    <string name="musicOff">MUSIC OFF</string>
+    <string name="suggestion">You should probably enter an answer...</string>
+    <string name="extraLife">You\'ve been given an additional life!</string>
+
+    <string name="title_activity_score_screen">ScoreScreenActivity</string>
+    <string name="ScoreModeNav">SCORE MODE</string>
+    <string name="EndGameButtonText">END</string>
+    <string name="welcomeScoreMode">Welcome to Math Quest\'s score mode!</string>
+    <string name="FinalScoreTitle">FINAL SCORE: %1$s/%2$s</string>
+    <string name="FinalScoreSubtitle">You got %1$s correct answers out of %2$s!</string>
+    <string name="resetStoryNav">RESET STORY MODE PROGRESS</string>
+    <string name="progressCleared">Progress cleared!</string>
+    <string name="changeMusicNav">CHANGE MUSIC</string>
+    <string name="NoMusicText">NO MUSIC CURRENTLY PLAYING</string>
+    <string name="themePlaying">CHANGE MUSIC (CURRENT TRACK: MQ THEME)</string>
+    <string name="strandedPlaying">CHANGE MUSIC (CURRENT TRACK: STRANDED IN MQ)</string>
+    <string name="WelcomeBackConsole">Welcome back, hero!</string>
+    <string name="journeyPlaying">CHANGE MUSIC (CURRENT TRACK: JOURNEY TO MQ)</string>
+    <string name="ConfirmReset">Are you sure?</string>
+    <string name="AlertPositive">YES, I\'M SURE</string>
+    <string name="AlertClearStory">This will clear your Story Mode progress.</string>
+    <string name="AlertNegative">NO</string>
+    <string name="AboutNav">ABOUT</string>
+    <string name="about1">About Math Quest</string>
+    <string name="about2">Math Quest first started development in the Spring of 2017 by a group of undergraduate computing science students at Simon Fraser University.</string>
+    <string name="about3">Our goal with Math Quest is to highlight the widely differing mathematical concepts included in the pursuit of a computing science degree.\nThe music featured in this application was written by: soundcloud.com/mikhelvin/.</string>
+    <string name="about4">Thank you for downloading our game, and we sincerely hope you enjoy it.</string>
+    <string name="about5">If you have any questions or concerns, please contact as at mathquestapp@gmail.com.</string>
+
+</resources>

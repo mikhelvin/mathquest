@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+
+    tools:context="sfu.ca.group3mathematicsapp.GameOverFragment">
+
+    <TextView
+        android:id="@+id/ScoreScreenSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:text="@string/GameOverInfo"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/ScoreScreenTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ScoreScreenSubtitle"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/GameOverLarge"
+        android:textColor="@color/white"
+
+        android:textSize="48dp" />
+
+    <Button
+        android:id="@+id/ScorePlayAgainButton"
+        style="@style/buttonBasic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ScoreScreenSubtitle"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/playAgainNav" />
+
+
+</RelativeLayout>

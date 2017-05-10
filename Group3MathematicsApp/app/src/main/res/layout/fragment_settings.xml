@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="sfu.ca.group3mathematicsapp.SettingsFragment">
+
+
+    <Button
+        android:id="@+id/musicButton"
+        style="@style/buttonBasic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/musicBtn" />
+
+    <Button
+        android:id="@+id/changeMusicButton"
+        style="@style/buttonBasic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/changeMusicNav" />
+
+    <Button
+        android:id="@+id/resetStoryButton"
+        style="@style/buttonBasic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/resetStoryNav" />
+
+</LinearLayout>
